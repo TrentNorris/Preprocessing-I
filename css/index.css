@@ -166,5 +166,14 @@ header img {
 }
 header h1 {
   font-size: 70px;
+  margin-bottom: 20px;
+}
+header p {
+  text-align: center;
+  font-size: 1.2em;
+}
+header span {
+  display: block;
   margin: 0 auto;
+  margin-top: 3em;
 }
