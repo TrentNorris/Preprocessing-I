@@ -199,3 +199,12 @@ header span {
   flex-direction: row;
   margin-top: 35px;
 }
+#desc img {
+  margin-right: 30px;
+}
+#desc ul {
+  list-style-type: square;
+}
+#desc li {
+  margin-bottom: 10px;
+}
