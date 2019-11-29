@@ -57,6 +57,9 @@ html, body {
 	height: 100%;
 }
 
+
+
+
 @gray: #e9ecef;
 
 /* Container */
@@ -77,9 +80,7 @@ html, body {
 			text-decoration: none;
 			color: darkgray;
 		}
-	hr {
-		border-bottom: 1px solid black;
-	}
+
 }
 
 /* Header */
@@ -93,6 +94,7 @@ header {
 	img {
 		width: 300px;
 		padding: 10px;
+		box-shadow: 0px 0px 20px 4px;
 		
 	}
 	h1 {
@@ -137,6 +139,7 @@ header {
 		}
 			img {
 				margin-right: 30px;
+				box-shadow: 0px 0px 20px 1px;
 			}
 			ul {
 				list-style-type: square;
@@ -147,3 +150,34 @@ header {
 
 }
 
+/* Desc */
+.contact {
+	background: @gray;
+	width: 100%;
+	height: 300px;
+	padding: 10px;
+	margin-top: 20px;
+	display: block;
+
+	h1 {
+		font-size: 1.5em;
+		margin-bottom: 0.5em;
+	}
+	img {
+		width: 280px;
+		position: relative;
+		float: left;
+		margin-top: 10px;
+		border: 4px solid black;
+		box-shadow: 0px 0px 20px 1px;
+		border-radius: 5px;
+	}
+	h2 {
+		font-size: 2.5em;
+		margin-top: 1.9em;
+		margin-right: 2.3em;
+		text-align: right;
+	}
+	
+
+}
