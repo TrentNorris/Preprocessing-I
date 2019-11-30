@@ -299,7 +299,7 @@ header span {
 #desc ul {
   list-style-type: square;
   width: 100%;
-  margin-top: 20px;
+  margin: 20px 0px 0px 20px;
 }
 @media screen and (max-width: 800px) {
   #desc ul {
